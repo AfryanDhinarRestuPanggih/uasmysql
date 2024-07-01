@@ -26,7 +26,7 @@ SELECT * FROM Perusahaan;
 
 ***Output :***
 
-![alt text](gandum1.png)
+![alt text](gambar/gandum1.png)
 
 
 ***Query MySQL Pada Tabel Departemen***
@@ -49,7 +49,7 @@ SELECT * FROM Departemen;
 
 ***Output :***
 
-![alt text](gandum2.png)
+![alt text](gambar/gandum2.png)
 
 
 ***Query MySQL Pada Tabel Karyawan***
@@ -79,7 +79,7 @@ SELECT * FROM Karyawan;
 
 ***Output :***
 
-![alt text](gandum3.png)
+![alt text](gambar/gandum3.png)
 
 
 ***Query MySQL Pada Tabel Project***
@@ -101,7 +101,7 @@ SELECT * FROM Project;
 ```
 
 ***Output :***
-![alt text](gandum4.png)
+![alt text](gambar/gandum4.png)
 
 
 
@@ -132,12 +132,12 @@ SELECT * FROM Project_detail;
 
 ***Output :***
 
-![alt text](gandum5.png)
+![alt text](gambar/gandum5.png)
 
 
 
 # Soal uas
-![alt text](gandum6.png)
+![alt text](gambar/gandum6.png)
 
 ### Berdasarkan ERD dan Sampel Data diatas buatla Query SQL untuk:
 1. Menampilkan Nama Karyawan yang Berada di Departemen yang Dipimpin
@@ -167,7 +167,7 @@ WHERE d.manajer_nik = (
 ```
 ***Output :***
 
-![alt text](gandum7.png)
+![alt text](gambar/gandum7.png)
 
 ## 2.Menampilkan Nama Proyek yang dikerjakan oleh Karyawan dari Departemen 'RnD'
 ***input :***
@@ -186,7 +186,7 @@ WHERE k.id_dept = (
 
 ***Output :***
 
-![alt text](gandum8.png)
+![alt text](gambar/gandum8.png)
 
 ## 3. Menampilkan Nama Karyawan yang Terlibat dalam Lebih dari Satu Proyek 
 
@@ -202,7 +202,7 @@ HAVING COUNT(pd.id_proj) > 1;
 
 ***Output :***
 
-![alt text](gandum9.png)
+![alt text](gambar/gandum9.png)
 
 ## 4.Menampilkan Nama Proyek yang melibatkan Karyawan terbanyak.
 ***Input :***
@@ -218,7 +218,7 @@ LIMIT 1;
 
 ***Output :***
 
-![alt text](gandum10.png)
+![alt text](gambar/gandum10.png)
 
 ## 5. Menampilkan Nama Proyek yang Diikuti oleh Karyawan dengan Gaji Pokok Kurang dari 3 Juta
 
@@ -234,4 +234,4 @@ WHERE k.gaji_pokok < 3000000;
 
 ***Output :***
 
-![alt text](gandum11.png)
+![alt text](gambar/gandum11.png)
